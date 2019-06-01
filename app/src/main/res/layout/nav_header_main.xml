@@ -135,6 +135,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:textColor="#000"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:drawablePadding="2dp"
         android:text="John Doe"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -142,6 +145,11 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawableTint="#000"
+        android:drawablePadding="2dp"
+
         android:text="johndoe@gmail.com" />
 
     <LinearLayout
@@ -159,6 +167,8 @@
             android:drawableTint="#000"
             android:textColor="#000"
             android:layout_marginTop="10dp"
+            android:drawablePadding="2dp"
+
             android:paddingBottom="10dp"
             android:text="BLOG"/>
 
@@ -170,6 +180,7 @@
             android:drawableTint="#000"
             android:textColor="#000"
             android:layout_marginTop="10dp"
+            android:drawablePadding="2dp"
             android:paddingBottom="10dp"
             android:text="Profile Url"/>
 
@@ -179,6 +190,8 @@
             android:layout_height="wrap_content"
             android:drawableStart="@drawable/ic_location_on_black_24dp"
             android:drawableTint="#000"
+            android:drawablePadding="2dp"
+
             android:textColor="#000"
             android:layout_marginTop="10dp"
             android:paddingBottom="10dp"
